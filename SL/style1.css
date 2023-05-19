@@ -6,12 +6,13 @@
 }
 
 #home{
-    background-image: url('images/38.jpg');
+    background-image: url('images/26.jpg');
     height: auto;
     width: 100%;
     background-repeat: no-repeat;
     position: relative;
 }
+
 
 .menu-bar{
     text-align: center;
@@ -67,10 +68,10 @@ nav .donate-btn {
     margin-left: auto;
 }
 
-#nav .donate-btn:hover {
+nav .donate-btn:hover {
     opacity: 0.6;
-
 }
+
 
 #home .text-box {
     width: 100%;
@@ -119,56 +120,55 @@ nav .donate-btn {
     padding: 30px;
     border-radius: 20px;
 }
-#home .para_box .main_para {
-    margin-bottom: 0;
+
+
+
+
+
+#home .text-box {
+    width: 100%;
+    color: #fff;
+    text-align:center;
+    margin: 80px auto 0 auto;
 }
 
-#home .hero-btn{
-    display: flex;
-    max-width: 250px;
-    margin: 50px auto;
-    text-decoration: none;
-    color: #000000;
-    border: 2px solid#000000;
-    padding: 12px 34px;
-    font-size: 15px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
+.container {
+    width: 85%;
+    margin: 60px auto;
+}
+
+#home .title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#home .title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+}
+
+#home .title-text h1{
+    font-size: 25px;
+}
+
+#home .text-box h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script',cursive;
     align-items: center;
-    justify-content: center;
 }
 
-#home .hero-btn .icon {
-    margin-right: 10px;
-    font-size: 30px;
-    color: red;
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
 }
 
-/*--Features--*/
-#home .Features{
-    width: 10%;
-    padding: 0px 0;
+#home .para_box {
+    background-color: rgba(30, 30, 30, 0.637);
+    padding: 30px;
+    border-radius: 20px;
 }
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-

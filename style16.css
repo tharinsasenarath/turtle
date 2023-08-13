@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home{
+   background-color: #1c1e20;
+    height: 404px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#home .text-box {
+    width: 100%;
+    color: #000000;
+    text-align:center;
+    margin: 80px auto 0 auto;
+  
+    
+}
+
+#home .text-box h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+.text-box{
+    font-size: 20px;
+    transform: scale(x);
+    text-align: center;
+}
+.image-container {
+    position: top;
+    
+
+  }
+  
+  .img-container img {
+    max-width: 10%;
+    height: 300;
+    position: top;
+  }
+  
+  .caption{
+    position: absolute;
+    top: 100px;
+    height: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 99px;
+    line-height: 100px;
+  }
+  
+
+
+/*-----------menu bar2-------------------*/
+
+.menu-bar10{
+    text-align: center;
+}
+.menu-bar10 ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar10 li {
+    width: 190px;
+    margin: 14px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    font: weight 300%;
+    margin-right: 60;
+}
+
+.menu-bar10 li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 20px;
+}
+
+
+.active, .menu-bar10 li:hover{
+    background: #2bab0d;
+    border-radius:3px;
+    height: 30px ;
+    width: 190px;  
+    font-size: 25px;
+}
+
+
+
+nav .logo{
+    height: 60px;
+    margin-right: 25px;
+}
+
+
+
+.subtopics h2{
+    text-align: left;
+    margin: 20px 350px 40px 20px; 
+    color: #f83838;
+    font-size: 30px;
+
+}
+.list{
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 5px;
+    word-spacing: 1px;
+  
+}
+
+.confirmation-section{
+    color: #ff0000;
+    font-size: 25px;
+    
+}
+
+.thank{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 200px 70px 70px; 
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.sumtable{
+    color: #fff;
+}
+
+#home .hero-button{
+    z-index: 1;
+    display: flex;
+    max-width: 250px;
+    margin: 100px auto;
+    text-decoration: none;
+    color: #ffffff;
+    border: 4px solid#17e2df;
+    font-weight: bold;
+    padding: 22px 34px;
+    font-size: 19px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}

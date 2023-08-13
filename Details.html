@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head> 
+        <title>SL Turtle Hatchery</title>
+        <link rel="stylesheet" href="style14.css" >
+        <link rel="stylesheet" href="footer.css" >
+        <link rel="stylesheet" href="header.css" >
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="international-telephone-input.css">
+        <script src="JS/international-telephone-input.js"></script>
+
+
+        <style>
+            body {
+                position: absolute;
+                left: 50% !important;
+                transform: translateX(-50%) !important;
+            }
+    
+            ul {
+                top: 100% !important;
+                transform: translateY(0%) !important;
+            }
+    
+            .iti {
+                position: relative;
+                display: inline-block;
+            }
+    
+            input[type=tel] {
+                padding-right: 6px;
+                padding-left: 52px;
+                margin-left: 0;
+    
+                position: relative;
+                z-index: 0;
+                margin-top: 0 !important;
+                margin-bottom: 0 !important;
+                margin-right: 0;
+                border: 1px solid #CCC;
+                width: 270px;
+                height: 35px;
+                /* padding: 6px 12px; */
+                border-radius: 2px;
+                font-family: inherit;
+                font-size: 100%;
+                color: inherit;
+            }
+    
+            button {
+                color: #FFF;
+                background-color: #428BCA;
+                border: 1px solid #357EBD;
+                height: 39px;
+                margin: 0;
+                padding: 6px 20px;
+                border-radius: 2px;
+                font-family: inherit;
+                font-size: 100%;
+            }
+    
+            button:hover {
+                background-color: #3276B1;
+                border-color: #285E8E;
+                cursor: pointer;
+            }
+        </style>
+    </head> 
+    
+    <body id="home">
+            <nav>
+                <a href="Details.html">
+                    <img src="images/logo.jpg" alt="" class="logo">
+                </a>
+                <div class="menu-bar">
+                            <ul>
+                                <li><a href="index.html">HOME</a></Li>
+                                <li><a href="TurtleCategories.html">TURTLE CATEGORIES </a></Li>
+                                <li><a href="HikkaduwaTurtleHatchery.html">HIKKADUWA HATCHERY </a></Li>
+                                <li><a href="TreatsToTurtleHatchery.html">THREATS TO TURTLES </a></Li>
+                                <li><a href="OtherTurtleHatchery.html">OTHER TURTLE HATCHERY </a></Li>
+                                <li><a href="ExploreSriLanka.html">EXPLORE SRI LANKA </a></Li>
+                                <li><a href="AboutUs&ContactUs.html">ABOUT US </a></Li>
+                                <li><a href="Purchase.html">PURCHASE </a></Li>
+                                <li><a href="Donate&Purchase.html">DONATE</a></li>
+                            </ul>
+                </div>
+                
+                            <a href="BookNow.html" class="donate-btn">BOOK NOW</a>
+            </nav>
+
+              <hr style="height: 0px;border-width:0;color:rgb(255, 255, 255);background-color:rgb(255, 255, 255)">
+
+              <div class="text-box">
+                <div class="image-container">
+                    <hr style="height: 5px;border: width 33px;color:rgb(255, 255, 255);background-color:rgb(255, 255, 255)">
+            
+                    <img src="Images/correctsss.jpg" alt="Your Image">
+                    <div class="caption">Book Now</div>
+                    
+                
+            <div class="menu-bar10">
+                <ul>
+                    <li><a href="BookNow.html">TICKETS</a></Li>
+                    <li class="active"><a href="Details.html">DETAILS </a></Li>
+                    <li><a href="Payments.html">PAYMENTS </a></Li>
+                    <li><a href="Confirmation.html">CONFIRMATION </a></Li>
+                </ul>
+            </div>
+
+
+    <hr style="height: 5px;border-width:0;color:rgb(255, 255, 255);background-color:rgb(255, 255, 255)">
+       <br><br>
+       <section class="summary">
+         <header class="head1">Summary Table</header></div>
+        <table border="1" class="sumtable" style="display: table; margin: 0 auto;">
+            <tr>
+                <td class="">Date</td>
+                <td><div id="dateview"></div></td>
+            </tr>
+            <tr>
+                <td class="me">Duration</td>
+                <td><div id="durationview"></div></td>
+            </tr>
+            <tr>
+                <td>Sri Lankan Adults </td>
+                <td><div id="sladultview"></div></td>
+            </tr>
+            <tr>
+                <td>Sri Lankan Child</td>
+                <td><div id="slchildview"></div></td>
+            </tr>
+            <tr>
+                <td>Foreign Adult</td>
+                <td><div id="fadultview"></div></td>
+            </tr>
+            <tr>
+                <td>Foreign Child</td>
+                <td><div id="fchildview"></div></td>
+            </tr>
+            <tr>
+                <td>Infants</td>
+                <td><div id="infantsview"></div></td>
+            </tr>
+            <tr>
+                <td>Selected Time</td>
+                <td><div id="durationview"></div></td>
+            </tr>
+            <tr>
+                <td class="me">Tickets</td>
+                <td><div id="ticketsview"></div></td>
+            </tr>
+            <tr>
+                <td class="me">Total Payable</td>
+                <td><div id="totalpayableview"></div></td>
+            </tr>
+            
+        </table>
+    
+
+        
+
+
+            
+                <div class="container">
+                    <header class="head">Registration</header></div>
+                    <form method="" action="" class="detailform" style="display: table; margin: 0 auto;">
+                        <label for="fullName">Full Name - </label>
+                        <input type="text" id="fullname" required><br>
+                  
+                        <label for="fullName">Mobile Number - </label>
+                        <!-- <input type="number" id="mobnumber" /><br> -->
+                        <div class="iti">
+                            <input type="tel" name="phone">
+                        </div>
+                        
+                        <label for="fullName">E-mail -</label>
+                        <input type="email" id="emailadress" /><br>
+                
+                        <label for="fullName">Confirm E-mail - </label>
+                        <input type="email" id="ceadress" /><br>
+                
+                        <label for="gender">Gender - </label>
+                            <select id="gender" name="gender">
+                                <option value="male">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="Prefer not to mention">Prefer not to mention</option>
+                            </select><br>
+
+                        <input type="submit" name="submit" value="Submit" />
+                    </form>
+                
+                    
+                <br><br><br>
+                    <table border="1" class="sumtable" style="display: table; margin: 0 auto;">
+                        <div class="head">Summary Table</header></div>
+                        <tr>
+                            <td>Name</td>
+                            <td><div id="nameview"></div></td>
+                        </tr>
+                        <tr>
+                            <td>Mobile Number</td>
+                            <td><div id="mobilenumberview"></div></td>
+                        </tr>
+                        <tr>
+                            <td>E-mail Adress</td>
+                            <td><div id="emailadressview"></div></td>
+                        </tr>
+                      
+                        <tr>
+                            <td>Gender</td>
+                            <td><div id="genderview"></div></td>
+                        </tr>
+                    </table>
+                
+
+
+
+
+                    <a class="hero-button" href="Payments.html">
+                        Countinue With Purchase 
+                    </a>
+
+
+                    <br><br><br>
+            <footer>
+                <div class="footer-content">
+                    <h3>SL Turtle</h3>
+                    Let's Protect Our Turtles
+                    <ul class="Socials">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                    </ul>
+                </div>
+                    <div class="footer-bottom">
+                       <p>Copyright &copy; 2023 SL Turtle. designed by <span>Tsenarath</span></p>
+                    </div>
+            </footer>
+        
+            
+            
+            <script src="JS/Details.js"></script>
+            <script src="JS/BookNowTicketForm.js"></script>
+</body>
+</html>
